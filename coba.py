@@ -1,0 +1,17 @@
+def run():
+    nama = input('input nama: ')
+    Nim = input('input Nim: ')
+    fakultas = input('input fakultas: ')
+    jurusan = input('input jurusan: ')
+    kota_asal = input('input kota_asal: ')
+    alamat_mahasiswa = input('input alamat_mahasiswa:')
+    print('================================')
+    print('Biodata anda adalah: ')
+    print('nama: ' + nama)
+    print('Nim: ' + Nim)
+    print('fakultas: ' + fakultas)
+    print('jurusan: ' + jurusan)
+    print('kota_asal: ' + kota_asal)
+    print('alama_ mahasiswa: ' + alamat_mahasiswa)
+if __name__ == '__main__':
+    run()

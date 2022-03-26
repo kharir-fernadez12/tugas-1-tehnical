@@ -1,0 +1,21 @@
+pilihan="y"
+while pilihan=="y":
+    print("""
+    ==============================
+    
+    ## daftar Menu Kopi Ilkom ##
+ 
+    ==============================
+    A. ES Kopi Susu 
+    B. ES Kopi Coklat 
+    C. ES Kopi Hitam 
+    D. Ice Americano 
+    ==============================
+    """)
+    pesan=str(input("masukkan pilihan anda ="))
+
+    print("--------------------------")
+    print("daftar Menu Kopi Ilkom")
+    print("--------------------------")
+    print("Menu :",listnama)
+    pilihan=input("apakah anda ingin order kembali Y/N =")
